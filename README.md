@@ -44,6 +44,11 @@
 
 *Приведите ответ в свободной форме.*
 
+---  
+Ответ:  
+2.1.Резервное копирование -  pg_dump -h localhost -U username -d database_name -F c -f backup_file.dump  
+    Востановление - pg_restore -h localhost -U username -d database_name -v backup_file.dump 
+
 ---
 
 ### Задание 3. MySQL
